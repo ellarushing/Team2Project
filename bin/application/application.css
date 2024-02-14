@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: #2F323A; /* Light gray background color */
+    -fx-text-background-color: white; /* default text colors, adjust for specific components below */
+    -fx-font-family: "sans-serif";
+}
+.spacer {
+	
+}
+.loginInput {
+	-fx-font-family: "Arial";
+    -fx-font-size: 30pt;
+    -fx-font-weight: bolder;
+    -fx-text-background-color: black;
+}
+.loginPanel {
+	-fx-background-color: white;
+	}
+.messagesVisitsBox {
+    -fx-padding: 0.0px 100px;
+    -fx-background-color: white;
+    -fx-text-background-color: black;   
+}
+.mainVBox {
+	-fx-padding: 100px 100px; /* pad at bottom/top & left/right */
+}
