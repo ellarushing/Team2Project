@@ -1,1 +1,4 @@
 /bin/
+
+# Shell script to run the application
+run.sh

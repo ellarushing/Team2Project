@@ -1,3 +1,8 @@
+/* Team 2 Prototype Code for Main UI/login functionality
+@authors Carlee Miller, Sophia Neumann, Ella Rushing, Kiernan Wyatt, Joshua Alon
+@version 1.0
+*/
+
 package application;
 	
 import java.io.FileInputStream;
@@ -145,7 +150,8 @@ public class Main extends Application {
 				if(searchResult == 0) 
 				{
 					user.createAccount(username); // if user does not exist, call create account method with username as parameter
-				}
+				} // only log in functionality has been created, we still need to implement create account functionality
+				
 				else
 				{
 					mainVBox.getChildren().remove(usernameBox); // remove username log in box 
